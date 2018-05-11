@@ -29,7 +29,7 @@ geocode.geocodeAddress(argv.address, (errorMessage, geocodeResults) => {
             if (errorMessage) {
                 console.log(`Error: ${errorMessage}`);
             } else {
-                console.log(`It's currently ${fromFarenheitToCelcius(weatherResults.temperature)}. It feels like ${fromFarenheitToCelcius(weatherResults.apparentTemperature)}`);
+                console.log(`It's currently ${fromFarenheitToCelcius(weatherResults.temperature)}. It feels like ${fromFarenheitToCelcius(weatherResults.apparentTemperature)}.`);
             }
         });
     }
