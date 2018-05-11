@@ -11,6 +11,8 @@ let geocodeAddress = (address, callback) => {
             callback('Unable to connect to Google servers.');
         } else if(body.status === 'ZERO_RESULTS') {
             callback('Unable to find address.');
+        } else if (body.status === 'OVER_QUERY_LIMI') {
+            callback('Too many geo-queries.');
         } else if(body.status === 'OK') {
             callback(undefined, {
                     address: body.results[0].formatted_address,
