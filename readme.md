@@ -1,4 +1,7 @@
-This application was created according to [Andrew Mead's course from Udemy](https://www.udemy.com/the-complete-nodejs-developer-course-2) (4th section) :
+WeatherApp
+==========
+
+This application was created according to [Andrew Mead's course from Udemy](https://www.udemy.com/the-complete-nodejs-developer-course-2) (4th section)
 
 It shows you the current temperature by the place. It is based on [Google Maps API](https://developers.google.com/maps/) and [Dark Sky API](https://darksky.net/dev/docs).
 
