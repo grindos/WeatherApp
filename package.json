@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "grindos",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "axios": "^0.18.0",
     "request": "^2.85.0",
     "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
   }
 }
