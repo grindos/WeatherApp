@@ -1,14 +1,18 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI application to get weather by the address",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "author": "grindos",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grindos/WeatherApp"
+  },
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "request": "^2.85.0",
